@@ -1,0 +1,161 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../images/image1.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.intro-image__text a {
+    background-color: #a9977ea7;
+    border: 2px solid #a9977e;
+    color: #efece9;
+    display: inline-block;
+    font-size: 2.5rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image__text a:hover {
+    transform: scale(1.1);
+
+}
+
+.intro-text {
+
+    background-color: #889197;
+    color: #efece9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 20rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 1.7rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../images/image2.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.packaging-image__text a {
+    background-color: #a9977ea7;
+    border: 2px solid #a9977ea7;
+    color: #efece9;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.packaging-text {
+    background-color: #889197;
+    color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 20rem;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+    margin-top: -2.4rem;
+    margin-bottom: -2.4rem;
+}
+
+.packaging_text__textbox h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../images/image3.jpeg');
+    background-size: cover;
+    background-position: top;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a {
+    background-color: #a9977ea7;
+    border: 2px solid #a9977e;
+    color: #f6f6f6;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-image__text a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #889197;
+    color: #d6d3d3;
+    height: 150px;
+    font-size: 1.25rem;
+    padding-top: 1.5rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0.5rem;
+
+}
+
+.footer ul li a {
+    color: #d6d3d3;
+    text-decoration: none;
+}
+
+.footer ul li a:hover{
+    color: #4d5c52;
+    display: inline-block;
+    transform: scale(1.2);
+
+}
